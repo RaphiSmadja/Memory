@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>B3 Memory</title>
+        <script type="module" src="game.js" charset="utf-8"></script>
+    </head>
+    <body>
+    <button id="play" style="width: 120px; height: 20px; background: aqua" onclick="displayGameGrid()"> PLAY !!</button>
+
+    <script>
+        function displayGameGrid(){
+            document.body.innerHTML =
+                "<game-grid numberImages='3' repeatImages='2'></game-grid>" +
+                    "<br>"+
+                    "<br>"+
+                "<button id=\"returnMenu\" style=\"width: 120px; height: 20px; background: red\" onclick=\"returnMenu()\">RETURN</button>"+
+            "<div id='containScor' style=\"width: 200px; height: 20px; border: 1px solid black; background: transparent\">" +
+            "<div id ='scor' style='background: aqua; width: 100%; height: 100%;'></div>"+
+            "</div>";
+        }
+
+        function returnMenu() {
+            console.log("Return Menu");
+        }
+    </script>
+    </body>
+</html>

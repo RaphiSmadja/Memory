@@ -1,0 +1,14 @@
+root {
+    display: block;
+    background-color: #FDFDFD;
+    background-image: url(images/back.svg);
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
